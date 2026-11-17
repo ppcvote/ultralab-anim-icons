@@ -1,0 +1,435 @@
+{
+  "name": "Ultra Lab Motion Icons",
+  "version": "0.2.0",
+  "license": "MIT",
+  "categories": [
+    {
+      "id": "signal",
+      "zh": "訊號",
+      "en": "Signal"
+    },
+    {
+      "id": "form",
+      "zh": "形體",
+      "en": "Form"
+    },
+    {
+      "id": "orbit",
+      "zh": "軌道",
+      "en": "Orbit"
+    },
+    {
+      "id": "progress",
+      "zh": "進程",
+      "en": "Progress"
+    },
+    {
+      "id": "write",
+      "zh": "書寫",
+      "en": "Write"
+    },
+    {
+      "id": "object",
+      "zh": "器物",
+      "en": "Object"
+    }
+  ],
+  "icons": [
+    {
+      "name": "scan",
+      "category": "signal",
+      "zh": "掃描",
+      "en": "Scan",
+      "ariaZh": "掃描中",
+      "ariaEn": "Scanning",
+      "duration": 2.6,
+      "file": "icons/scan.svg",
+      "class": "ul-scan"
+    },
+    {
+      "name": "broadcast",
+      "category": "signal",
+      "zh": "發送",
+      "en": "Broadcast",
+      "ariaZh": "訊號發送中",
+      "ariaEn": "Broadcasting",
+      "duration": 2.2,
+      "file": "icons/broadcast.svg",
+      "class": "ul-broadcast"
+    },
+    {
+      "name": "spark",
+      "category": "form",
+      "zh": "靈光",
+      "en": "Spark",
+      "ariaZh": "AI 思考中",
+      "ariaEn": "Thinking",
+      "duration": 3.2,
+      "file": "icons/spark.svg",
+      "class": "ul-spark"
+    },
+    {
+      "name": "layers",
+      "category": "form",
+      "zh": "疊層",
+      "en": "Layers",
+      "ariaZh": "整合中",
+      "ariaEn": "Merging",
+      "duration": 2.8,
+      "file": "icons/layers.svg",
+      "class": "ul-layers"
+    },
+    {
+      "name": "loading-orbit",
+      "category": "orbit",
+      "zh": "載入軌道",
+      "en": "Loading orbit",
+      "ariaZh": "載入中",
+      "ariaEn": "Loading",
+      "duration": 1.6,
+      "file": "icons/loading-orbit.svg",
+      "class": "ul-loading-orbit"
+    },
+    {
+      "name": "connecting",
+      "category": "orbit",
+      "zh": "連線",
+      "en": "Connecting",
+      "ariaZh": "連線中",
+      "ariaEn": "Connecting",
+      "duration": 3.6,
+      "file": "icons/connecting.svg",
+      "class": "ul-connecting"
+    },
+    {
+      "name": "steps",
+      "category": "progress",
+      "zh": "步驟",
+      "en": "Steps",
+      "ariaZh": "步驟進行中",
+      "ariaEn": "In progress",
+      "duration": 3.4,
+      "file": "icons/steps.svg",
+      "class": "ul-steps"
+    },
+    {
+      "name": "verify",
+      "category": "progress",
+      "zh": "驗證",
+      "en": "Verify",
+      "ariaZh": "驗證完成",
+      "ariaEn": "Verified",
+      "duration": 3.4,
+      "file": "icons/verify.svg",
+      "class": "ul-verify"
+    },
+    {
+      "name": "stream",
+      "category": "write",
+      "zh": "串流",
+      "en": "Stream",
+      "ariaZh": "文字輸出中",
+      "ariaEn": "Writing",
+      "duration": 4,
+      "file": "icons/stream.svg",
+      "class": "ul-stream"
+    },
+    {
+      "name": "prompt",
+      "category": "write",
+      "zh": "提示列",
+      "en": "Prompt",
+      "ariaZh": "等待輸入",
+      "ariaEn": "Awaiting input",
+      "duration": 2.4,
+      "file": "icons/prompt.svg",
+      "class": "ul-prompt"
+    },
+    {
+      "name": "flask",
+      "category": "object",
+      "zh": "燒瓶",
+      "en": "Flask",
+      "ariaZh": "實驗中",
+      "ariaEn": "Experimenting",
+      "duration": 2.4,
+      "file": "icons/flask.svg",
+      "class": "ul-flask"
+    },
+    {
+      "name": "hourglass",
+      "category": "object",
+      "zh": "沙漏",
+      "en": "Hourglass",
+      "ariaZh": "請稍候",
+      "ariaEn": "Please wait",
+      "duration": 4.2,
+      "file": "icons/hourglass.svg",
+      "class": "ul-hourglass"
+    },
+    {
+      "name": "listen",
+      "category": "signal",
+      "zh": "收音",
+      "en": "Listen",
+      "ariaZh": "聆聽中",
+      "ariaEn": "Listening",
+      "duration": 1.8,
+      "file": "icons/listen.svg",
+      "class": "ul-listen"
+    },
+    {
+      "name": "wifi-search",
+      "category": "signal",
+      "zh": "找訊號",
+      "en": "Wi-Fi search",
+      "ariaZh": "搜尋網路中",
+      "ariaEn": "Searching for network",
+      "duration": 2.6,
+      "file": "icons/wifi-search.svg",
+      "class": "ul-wifi-search"
+    },
+    {
+      "name": "radar",
+      "category": "signal",
+      "zh": "雷達",
+      "en": "Radar",
+      "ariaZh": "偵測中",
+      "ariaEn": "Detecting",
+      "duration": 2.4,
+      "file": "icons/radar.svg",
+      "class": "ul-radar"
+    },
+    {
+      "name": "notify",
+      "category": "signal",
+      "zh": "新通知",
+      "en": "Notify",
+      "ariaZh": "有新通知",
+      "ariaEn": "New notification",
+      "duration": 3,
+      "file": "icons/notify.svg",
+      "class": "ul-notify"
+    },
+    {
+      "name": "morph",
+      "category": "form",
+      "zh": "變形",
+      "en": "Morph",
+      "ariaZh": "轉換中",
+      "ariaEn": "Transforming",
+      "duration": 3,
+      "file": "icons/morph.svg",
+      "class": "ul-morph"
+    },
+    {
+      "name": "facets",
+      "category": "form",
+      "zh": "切面",
+      "en": "Facets",
+      "ariaZh": "運算中",
+      "ariaEn": "Computing",
+      "duration": 3.6,
+      "file": "icons/facets.svg",
+      "class": "ul-facets"
+    },
+    {
+      "name": "prism",
+      "category": "form",
+      "zh": "稜鏡",
+      "en": "Prism",
+      "ariaZh": "分析中",
+      "ariaEn": "Analysing",
+      "duration": 3.4,
+      "file": "icons/prism.svg",
+      "class": "ul-prism"
+    },
+    {
+      "name": "ripple",
+      "category": "form",
+      "zh": "漣漪",
+      "en": "Ripple",
+      "ariaZh": "擴散中",
+      "ariaEn": "Spreading",
+      "duration": 2.6,
+      "file": "icons/ripple.svg",
+      "class": "ul-ripple"
+    },
+    {
+      "name": "sync",
+      "category": "orbit",
+      "zh": "同步",
+      "en": "Sync",
+      "ariaZh": "同步中",
+      "ariaEn": "Syncing",
+      "duration": 2.4,
+      "file": "icons/sync.svg",
+      "class": "ul-sync"
+    },
+    {
+      "name": "infinity",
+      "category": "orbit",
+      "zh": "無限",
+      "en": "Infinity",
+      "ariaZh": "持續處理中",
+      "ariaEn": "Processing",
+      "duration": 2.4,
+      "file": "icons/infinity.svg",
+      "class": "ul-infinity"
+    },
+    {
+      "name": "gear",
+      "category": "orbit",
+      "zh": "齒輪",
+      "en": "Gear",
+      "ariaZh": "處理中",
+      "ariaEn": "Working",
+      "duration": 1.6,
+      "file": "icons/gear.svg",
+      "class": "ul-gear"
+    },
+    {
+      "name": "compass",
+      "category": "orbit",
+      "zh": "羅盤",
+      "en": "Compass",
+      "ariaZh": "定位中",
+      "ariaEn": "Locating",
+      "duration": 3.2,
+      "file": "icons/compass.svg",
+      "class": "ul-compass"
+    },
+    {
+      "name": "upload",
+      "category": "progress",
+      "zh": "上傳",
+      "en": "Upload",
+      "ariaZh": "上傳中",
+      "ariaEn": "Uploading",
+      "duration": 2.2,
+      "file": "icons/upload.svg",
+      "class": "ul-upload"
+    },
+    {
+      "name": "download",
+      "category": "progress",
+      "zh": "下載",
+      "en": "Download",
+      "ariaZh": "下載中",
+      "ariaEn": "Downloading",
+      "duration": 2.2,
+      "file": "icons/download.svg",
+      "class": "ul-download"
+    },
+    {
+      "name": "percent-ring",
+      "category": "progress",
+      "zh": "進度環",
+      "en": "Progress ring",
+      "ariaZh": "進度載入中",
+      "ariaEn": "Loading progress",
+      "duration": 3.2,
+      "file": "icons/percent-ring.svg",
+      "class": "ul-percent-ring"
+    },
+    {
+      "name": "retry",
+      "category": "progress",
+      "zh": "重試",
+      "en": "Retry",
+      "ariaZh": "發生錯誤，重試中",
+      "ariaEn": "Error, retrying",
+      "duration": 3.4,
+      "file": "icons/retry.svg",
+      "class": "ul-retry"
+    },
+    {
+      "name": "translate",
+      "category": "write",
+      "zh": "翻譯",
+      "en": "Translate",
+      "ariaZh": "翻譯中",
+      "ariaEn": "Translating",
+      "duration": 3.6,
+      "file": "icons/translate.svg",
+      "class": "ul-translate"
+    },
+    {
+      "name": "select",
+      "category": "write",
+      "zh": "選取",
+      "en": "Select",
+      "ariaZh": "選取文字",
+      "ariaEn": "Selecting text",
+      "duration": 3,
+      "file": "icons/select.svg",
+      "class": "ul-select"
+    },
+    {
+      "name": "search",
+      "category": "write",
+      "zh": "搜尋",
+      "en": "Search",
+      "ariaZh": "搜尋中",
+      "ariaEn": "Searching",
+      "duration": 3.2,
+      "file": "icons/search.svg",
+      "class": "ul-search"
+    },
+    {
+      "name": "summarize",
+      "category": "write",
+      "zh": "摘要",
+      "en": "Summarize",
+      "ariaZh": "摘要中",
+      "ariaEn": "Summarising",
+      "duration": 3.6,
+      "file": "icons/summarize.svg",
+      "class": "ul-summarize"
+    },
+    {
+      "name": "key",
+      "category": "object",
+      "zh": "鑰匙",
+      "en": "Key",
+      "ariaZh": "授權中",
+      "ariaEn": "Authorising",
+      "duration": 3,
+      "file": "icons/key.svg",
+      "class": "ul-key"
+    },
+    {
+      "name": "mail-send",
+      "category": "object",
+      "zh": "寄出",
+      "en": "Mail send",
+      "ariaZh": "寄送中",
+      "ariaEn": "Sending",
+      "duration": 2.6,
+      "file": "icons/mail-send.svg",
+      "class": "ul-mail-send"
+    },
+    {
+      "name": "lamp",
+      "category": "object",
+      "zh": "燈泡",
+      "en": "Lamp",
+      "ariaZh": "有新點子",
+      "ariaEn": "New idea",
+      "duration": 2.8,
+      "file": "icons/lamp.svg",
+      "class": "ul-lamp"
+    },
+    {
+      "name": "bot",
+      "category": "object",
+      "zh": "小助理",
+      "en": "Bot",
+      "ariaZh": "AI 助理待命",
+      "ariaEn": "Assistant ready",
+      "duration": 3.6,
+      "file": "icons/bot.svg",
+      "class": "ul-bot"
+    }
+  ]
+}
