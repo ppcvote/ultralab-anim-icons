@@ -47,8 +47,8 @@ Little icons that move. Pure SVG and CSS, zero dependencies, copy and paste.
 **CDN（不用下載）**：
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.0/css/ul-icons.css">
-<img src="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.0/icons/flask.svg" width="24" height="24" alt="實驗中">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.1/css/ul-icons.css">
+<img src="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.1/icons/flask.svg" width="24" height="24" alt="實驗中">
 ```
 
 **3. 當圖片用**
@@ -103,7 +103,7 @@ node build.mjs
 
 **2. Load the CSS, use classes (lightest for many icons).** Load `css/ul-icons.css` once, then paste the slim SVG without `<style>` (what the showcase's "Copy class usage" gives you).
 
-**CDN (no download).** `https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.0/css/ul-icons.css` and `.../icons/<name>.svg`.
+**CDN (no download).** `https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.1/css/ul-icons.css` and `.../icons/<name>.svg`.
 
 **3. As an image.** `<img src="icons/hourglass.svg" width="24" height="24" alt="Please wait">` still animates, but an image cannot see your text colour, so it renders black. Use one of the first two to recolour.
 

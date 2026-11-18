@@ -3,7 +3,7 @@
 // --ul-play 暫停；動畫只動 transform／opacity／stroke-dashoffset；沒有動畫時（減少動態效果）停在一個看得懂的靜態姿勢。
 // Source of truth for Ultra Lab Motion Icons. MIT License, (c) Ultra Lab.
 
-export const VERSION = '0.3.0'
+export const VERSION = '0.3.1'
 
 export const CATEGORIES = [
   { id: 'signal', zh: '訊號', en: 'Signal', noteZh: '有東西在傳、在被讀取。', noteEn: 'Something is being sent or read.' },

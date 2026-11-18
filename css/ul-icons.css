@@ -1,4 +1,4 @@
-/*! Ultra Lab Motion Icons v0.3.0 | MIT License | (c) Ultra Lab | https://ultralab.tw/icons */
+/*! Ultra Lab Motion Icons v0.3.1 | MIT License | (c) Ultra Lab | https://ultralab.tw/icons */
 /* 變數 Variables: --ul-size (24px) --ul-speed (1, 2 = 兩倍快 twice as fast) --ul-stroke (1.5) --ul-play (running | paused) */
 .ul-i{width:var(--ul-size,24px);height:var(--ul-size,24px);stroke-width:var(--ul-stroke,1.5);overflow:visible;vertical-align:middle;flex:none}
 .ul-i *{transform-box:view-box;transform-origin:12px 12px}

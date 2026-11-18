@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.3.0 (2026-11-18)
+## v0.3.1 (2026-11-18)
 
 - 改名 Rename: `ripple` → `wave`（中文名改「波紋」）。用到 `ul-ripple` class 或 `icons/ripple.svg` 的請改成 `ul-wave`、`icons/wave.svg`；造型和動畫沒變。Breaking: `ripple` is renamed to `wave` (class `ul-wave`, file `icons/wave.svg`); shape and motion are unchanged.
 - 說明文字：`listen`、`notify` 的英文說明改用 spreads。Wording tweak in the `listen` and `notify` descriptions.
