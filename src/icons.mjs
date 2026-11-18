@@ -3,7 +3,7 @@
 // --ul-play 暫停；動畫只動 transform／opacity／stroke-dashoffset；沒有動畫時（減少動態效果）停在一個看得懂的靜態姿勢。
 // Source of truth for Ultra Lab Motion Icons. MIT License, (c) Ultra Lab.
 
-export const VERSION = '0.2.0'
+export const VERSION = '0.3.0'
 
 export const CATEGORIES = [
   { id: 'signal', zh: '訊號', en: 'Signal', noteZh: '有東西在傳、在被讀取。', noteEn: 'Something is being sent or read.' },
@@ -201,7 +201,7 @@ export const ICONS = [
     name: 'listen', cat: 'signal', zh: '收音', en: 'Listen', ariaZh: '聆聽中', ariaEn: 'Listening', dur: 1.8,
     useZh: '語音輸入、錄音中、AI 正在聽', useEn: 'Voice input, recording, the AI is listening',
     whyZh: '麥克風裡兩道格柵由下往上亮，外弧向外漾出一圈淡影，像聲音被收進去。',
-    whyEn: 'Two grille lines light from bottom to top while a faint echo of the stand arc ripples outward, like sound being taken in.',
+    whyEn: 'Two grille lines light from bottom to top while a faint echo of the stand arc spreads outward, like sound being taken in.',
     body: `<rect x="9" y="3.5" width="6" height="10.5" rx="3"/><path class="g1" d="M11 10.5h2"/><path class="g2" d="M11 7.5h2"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v2.5M9.5 20.5h5"/><path class="e" d="M5.5 11.5a6.5 6.5 0 0 0 13 0" opacity="0"/>`,
     css: (n, d) => `.ul-${n} .g1{${A(n, 'lv', d)}}
 .ul-${n} .g2{${A(n, 'lv', d, 'ease-in-out', -(d - 0.18))}}
@@ -239,7 +239,7 @@ export const ICONS = [
     name: 'notify', cat: 'signal', zh: '新通知', en: 'Notify', ariaZh: '有新通知', ariaEn: 'New notification', dur: 3,
     useZh: '收件匣、新訊息、待處理提醒', useEn: 'Inbox, new message, something waiting for you',
     whyZh: '右上角的點彈出來，外圈漾開一次，框輕輕震兩下；框在點旁邊留了缺口，線不會疊在一起。',
-    whyEn: 'The dot pops in the corner, a ring ripples out once and the frame gives a small buzz; the frame leaves a gap by the dot so lines never collide.',
+    whyEn: 'The dot pops in the corner, a ring spreads out once and the frame gives a small buzz; the frame leaves a gap by the dot so lines never collide.',
     body: `<path class="f" d="M13 5H7.5A3.5 3.5 0 0 0 4 8.5v8A3.5 3.5 0 0 0 7.5 20h8a3.5 3.5 0 0 0 3.5-3.5V11M8 12h6M8 15.5h4"/><circle class="r" cx="18" cy="6" r="2.5" opacity="0"/><circle class="d" cx="18" cy="6" r="2.5" ${DOT}/>`,
     css: (n, d) => `.ul-${n} .d{transform-origin:18px 6px;${A(n, 'pop', d)}}
 .ul-${n} .r{transform-origin:18px 6px;${A(n, 'ring', d, 'ease-out')}}
@@ -287,7 +287,7 @@ export const ICONS = [
 @keyframes ul-${n}-r3{0%,30%{stroke-dashoffset:1.1;opacity:1}46%,82%{stroke-dashoffset:0;opacity:1}92%{stroke-dashoffset:0;opacity:0}100%{stroke-dashoffset:1.1;opacity:0}}`,
   },
   {
-    name: 'ripple', cat: 'form', zh: '漣漪', en: 'Ripple', ariaZh: '擴散中', ariaEn: 'Spreading', dur: 2.6,
+    name: 'wave', cat: 'form', zh: '波紋', en: 'Wave', ariaZh: '擴散中', ariaEn: 'Spreading', dur: 2.6,
     useZh: '觸控回饋、擴散分享、影響範圍', useEn: 'Touch feedback, sharing outward, reach',
     whyZh: '中心點輕輕一敲，兩圈波紋錯開半拍向外擴散、邊擴邊淡，永遠有一圈在走。',
     whyEn: 'The centre taps once and two rings spread outward half a beat apart, fading as they grow, so one is always on its way.',

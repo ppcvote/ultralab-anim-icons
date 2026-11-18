@@ -1,6 +1,6 @@
 {
   "name": "Ultra Lab Motion Icons",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "categories": [
     {
@@ -245,15 +245,15 @@
       "class": "ul-prism"
     },
     {
-      "name": "ripple",
+      "name": "wave",
       "category": "form",
-      "zh": "漣漪",
-      "en": "Ripple",
+      "zh": "波紋",
+      "en": "Wave",
       "ariaZh": "擴散中",
       "ariaEn": "Spreading",
       "duration": 2.6,
-      "file": "icons/ripple.svg",
-      "class": "ul-ripple"
+      "file": "icons/wave.svg",
+      "class": "ul-wave"
     },
     {
       "name": "sync",

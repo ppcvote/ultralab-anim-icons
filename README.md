@@ -10,7 +10,7 @@ Little icons that move. Pure SVG and CSS, zero dependencies, copy and paste.
 | 類別 Family | 圖示 Icons |
 |---|---|
 | 訊號 Signal | `scan` 掃描 ・ `broadcast` 發送 ・ `listen` 收音 ・ `wifi-search` 找訊號 ・ `radar` 雷達 ・ `notify` 新通知 |
-| 形體 Form | `spark` 靈光 ・ `layers` 疊層 ・ `morph` 變形 ・ `facets` 切面 ・ `prism` 稜鏡 ・ `ripple` 漣漪 |
+| 形體 Form | `spark` 靈光 ・ `layers` 疊層 ・ `morph` 變形 ・ `facets` 切面 ・ `prism` 稜鏡 ・ `wave` 波紋 |
 | 軌道 Orbit | `loading-orbit` 載入軌道 ・ `connecting` 連線 ・ `sync` 同步 ・ `infinity` 無限 ・ `gear` 齒輪 ・ `compass` 羅盤 |
 | 進程 Progress | `steps` 步驟 ・ `verify` 驗證 ・ `upload` 上傳 ・ `download` 下載 ・ `percent-ring` 進度環 ・ `retry` 重試 |
 | 書寫 Write | `stream` 串流 ・ `prompt` 提示列 ・ `translate` 翻譯 ・ `select` 選取 ・ `search` 搜尋 ・ `summarize` 摘要 |
@@ -47,8 +47,8 @@ Little icons that move. Pure SVG and CSS, zero dependencies, copy and paste.
 **CDN（不用下載）**：
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.2.0/css/ul-icons.css">
-<img src="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.2.0/icons/flask.svg" width="24" height="24" alt="實驗中">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.0/css/ul-icons.css">
+<img src="https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.0/icons/flask.svg" width="24" height="24" alt="實驗中">
 ```
 
 **3. 當圖片用**
@@ -103,7 +103,7 @@ node build.mjs
 
 **2. Load the CSS, use classes (lightest for many icons).** Load `css/ul-icons.css` once, then paste the slim SVG without `<style>` (what the showcase's "Copy class usage" gives you).
 
-**CDN (no download).** `https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.2.0/css/ul-icons.css` and `.../icons/<name>.svg`.
+**CDN (no download).** `https://cdn.jsdelivr.net/gh/ppcvote/ultralab-anim-icons@v0.3.0/css/ul-icons.css` and `.../icons/<name>.svg`.
 
 **3. As an image.** `<img src="icons/hourglass.svg" width="24" height="24" alt="Please wait">` still animates, but an image cannot see your text colour, so it renders black. Use one of the first two to recolour.
 
